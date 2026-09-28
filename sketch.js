@@ -18,7 +18,7 @@ p5.initMetrics(31.5, 300);
 // #############################################################################
 
 let lineWeightInMillimeters = 1;
-let textSizeInMullimeters = 5;
+let textSizeInMillimeters = 5;
 
 
 // #############################################################################
@@ -32,9 +32,9 @@ function setup() {
     });
 
     textAlign(CENTER);
-    textSize(mmpx(textSizeInMullimeters));
+    textSize(mmpx(textSizeInMillimeters));
     text(`If you entered the right parameters in p5.initMetrics(),`, width * 0.5, height * 0.5 - mmpx(10));
-    text(`( see at the top of the source file 'artwork.js' )`, width * 0.5, height * 0.5 + mmpx(0));
+    text(`( see at the top of the source file 'sketch.js' )`, width * 0.5, height * 0.5 + mmpx(0));
     text(`you should see a canvas of 200 x 100 mm when zoomed 1:1`, width * 0.5, height * 0.5 + mmpx(10));
     text(`(!!! browser zoom level at 100%)`, width * 0.5, height * 0.5 + mmpx(20));
     text(`Use mouse buttons and mouse wheel to pan/zoom`, width * 0.5, height * 0.5 + mmpx(30));
